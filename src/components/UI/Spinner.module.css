@@ -1,0 +1,17 @@
+.spinner {
+  width: 50%;
+  display: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner > div {
+  color: #6ad8d1;
+}
+
+@media all and (max-width: 969px) {
+  .spinner {
+    margin-left: 25%;
+  }
+}

@@ -1,0 +1,87 @@
+.control {
+  position: absolute;
+  top: 15%;
+  width: 50%;
+  height: auto;
+  left: 50%;
+  z-index: 1;
+  font-family: "Merriweather";
+  line-height: 20px;
+}
+
+.control h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.control p {
+  font-size: 18px;
+}
+
+.skills {
+  z-index: -1;
+}
+
+.skills-image {
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 15%;
+  width: 400px;
+  height: 400px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-list-item {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.recommendation {
+  font-weight: bold;
+}
+
+.experience {
+  width: 80%;
+  margin: 10%;
+}
+
+.experience button {
+  padding: 8px;
+  color: white;
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-weight: normal;
+  width: 200px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #028b9e;
+}
+
+.experience button:hover,
+.experience button:active {
+  background-color: #09d5f0;
+}
+
+.icon {
+  margin-left: 15px;
+  height: 5px;
+  width: 20px;
+}
+
+@media all and (max-width: 969px) {
+  .control {
+    position: relative;
+    width: auto;
+    left: 0%;
+  }
+
+  .skills-image {
+    width: 350px;
+    height: 350px;
+  }
+}

@@ -1,0 +1,103 @@
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control-invalid {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label,
+.form-control textarea {
+  display: block;
+}
+
+.form-control-invalid input,
+.form-control-invalid label,
+.form-control-invalid textarea {
+  display: block;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control-invalid label {
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  width: 50%;
+  max-width: 100%;
+}
+
+.form-control-invalid input,
+.form-control-invalid textarea,
+.form-control-invalid select {
+  font: inherit;
+  padding: 0.5rem;
+  width: 50%;
+  max-width: 100%;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  background-color: #e0d4fd;
+}
+
+.form-control-invalid input,
+.form-control-invalid textarea {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.form-control-invalid input:focus,
+.form-control-invalid textarea:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+.form-actions button {
+  width: 53%;
+  padding: 0.5rem;
+  max-width: 100%;
+  font: inherit;
+  background-color: #6ad8d1;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+  background-color: #7ffcf3;
+}
+
+@media all and (max-width: 969px) {
+  .form-control input,
+  .form-control textarea,
+  .form-control select {
+    width: 100%;
+    max-width: 95%;
+  }
+
+  .form-control-invalid input,
+  .form-control-invalid textarea,
+  .form-control-invalid select {
+    width: 100%;
+    max-width: 95%;
+  }
+
+  .form-actions button {
+    width: 100%;
+  }
+}

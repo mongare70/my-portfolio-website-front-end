@@ -1,0 +1,120 @@
+nav {
+  margin-top: 10px;
+}
+
+nav:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav .logo {
+  width: 106px;
+  height: 101px;
+  margin-left: 100px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  margin-right: 100px;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: black;
+  font-family: "Merriweather";
+  text-decoration: none;
+  font-size: 24px;
+  padding: 8px 15px;
+  line-height: 50px;
+}
+
+nav ul li a:hover {
+  color: #4c7da8;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #4c7da8, 0 0 5px rgb(81, 122, 158);
+}
+
+nav ul li:hover > ul {
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.show,
+input {
+  display: none;
+}
+
+.icon {
+  display: none;
+}
+
+@media all and (max-width: 968px) {
+  nav ul {
+    margin-right: 0px;
+    float: left;
+  }
+
+  nav .logo {
+    width: 67px;
+    height: 62px;
+    display: block;
+    position: relative;
+    margin-left: 40px;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .show {
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding: 0 12px;
+    line-height: 70px;
+    cursor: pointer;
+  }
+
+  .show:hover {
+    color: cyan;
+  }
+
+  .icon {
+    display: block;
+    color: black;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    right: 40px;
+    line-height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  nav ul a:hover {
+    box-shadow: none;
+  }
+
+  .show + a,
+  ul {
+    display: none;
+  }
+
+  [id^="btn"]:checked + ul {
+    display: block;
+  }
+}

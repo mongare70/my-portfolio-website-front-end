@@ -1,0 +1,50 @@
+.control {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+.row {
+  width: auto;
+  height: 200px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.column {
+  border-radius: 5px;
+  width: 490px;
+  margin: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  height: inherit;
+}
+
+.column:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+.column h2 {
+  font-family: "Merriweather";
+  text-align: center;
+  padding: 13%;
+}
+
+@media all and (max-width: 969px) {
+  .control {
+    margin: 10px;
+  }
+
+  .row {
+    display: inline;
+  }
+
+  .column {
+    width: auto;
+  }
+}

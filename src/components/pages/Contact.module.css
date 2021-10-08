@@ -1,0 +1,85 @@
+.control {
+  position: absolute;
+  font-family: "Merriweather";
+  width: 50%;
+  margin-left: 200px;
+  z-index: 1;
+}
+
+.control2 {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  background-color: #6ad8d1;
+  z-index: -1;
+}
+
+.hillary {
+  text-align: center;
+  width: 39%;
+  height: auto;
+  top: 25%;
+  margin-left: 30%;
+  position: relative;
+}
+
+.hillary-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 150%;
+}
+
+.icon a {
+  color: inherit;
+}
+
+.icon a:hover {
+  cursor: pointer;
+}
+
+.footer {
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media all and (max-width: 969px) {
+  .control {
+    position: relative;
+    width: 95%;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin: 10px;
+    z-index: 1;
+  }
+
+  .control2 {
+    padding: 10px;
+    left: 0%;
+    width: auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hillary {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .footer {
+    position: relative;
+  }
+}
