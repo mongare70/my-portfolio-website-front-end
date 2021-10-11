@@ -49,21 +49,22 @@
   margin: 10%;
 }
 
-.experience button {
-  padding: 8px;
+.experience a {
+  text-decoration: none;
+  padding: 10px;
   color: white;
   font-size: 18px;
   font-family: "Open Sans";
   font-weight: normal;
   width: 200px;
   margin-top: 15px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: none;
   background-color: #028b9e;
 }
 
-.experience button:hover,
-.experience button:active {
+.experience a:hover,
+.experience a:active {
   background-color: #09d5f0;
 }
 

@@ -52,12 +52,18 @@ const Experience = () => {
             If you would like to know more about me or are simply curious feel
             free to download my CV or get in touch.
           </p>
-          <button className={classes.actions}>
+          <br></br>
+          <a
+            className={classes.actions}
+            href="https://drive.google.com/file/d/1CUiC_j0WB88vlbzC-dTB-kQG9CAXzFlP/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Download CV
             <span className={classes.icon}>
               <FontAwesomeIcon icon={faFileDownload} />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </Fragment>
