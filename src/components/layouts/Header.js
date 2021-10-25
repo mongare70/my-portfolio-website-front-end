@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,25 +8,33 @@ import classes from "./Header.module.css";
 const Header = () => {
   return (
     <nav>
-      <Link to="/">
+      <NavLink exact to="/">
         <img src={logo} className={classes.logo} alt="Hillary Logo" />
-      </Link>
+      </NavLink>
       <label htmlFor="btn" className={classes.icon}>
         <FontAwesomeIcon icon={faBars} />
       </label>
       <input type="checkbox" id="btn" />
       <ul>
         <li>
-          <Link to="/">About</Link>
+          <NavLink exact activeClassName={classes.active} to="/">
+            About
+          </NavLink>
         </li>
         <li>
-          <Link to="/experience">Experience</Link>
+          <NavLink activeClassName={classes.active} to="/experience">
+            Experience
+          </NavLink>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <NavLink activeClassName={classes.active} to="/projects">
+            Projects
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact">Hire Me</Link>
+          <NavLink activeClassName={classes.active} to="/contact">
+            Hire Me
+          </NavLink>
         </li>
       </ul>
     </nav>

@@ -35,7 +35,8 @@ nav ul li a {
   line-height: 50px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav .active {
   color: #4c7da8;
   border-radius: 5px;
   box-shadow: 0 0 5px #4c7da8, 0 0 5px rgb(81, 122, 158);

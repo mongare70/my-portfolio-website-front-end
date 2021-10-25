@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import { useHistory } from "react-router";
 
 import classes from "./About.module.css";
-import hillary from "../assets/hillary.png";
+import hillary from "../assets/hillary.jpeg";
 import Header from "../layouts/Header";
 
 const About = () => {

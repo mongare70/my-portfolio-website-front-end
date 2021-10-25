@@ -1,0 +1,49 @@
+.control {
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Merriweather";
+}
+
+.control .main-title {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.control .sub-title {
+  font-weight: bold;
+  margin-top: 0rem;
+  font-size: 24px;
+}
+
+.control .description {
+  margin-top: 10px;
+}
+
+.control .goto {
+  margin-top: 6rem;
+}
+
+.control .goto a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-weight: normal;
+  width: 200px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #028b9e;
+}
+
+.control .goto a:hover,
+.control.goto a:active {
+  background-color: #09d5f0;
+}
+
+@media all and (max-width: 969px) {
+  .control {
+    margin-top: 20%;
+  }
+}
