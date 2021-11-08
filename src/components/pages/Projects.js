@@ -16,6 +16,15 @@ const Projects = () => {
         <div className={classes.row}>
           <div className={classes.column}>
             <a
+              href="https://momshavethistosay.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2>Moms Have This To Say Website</h2>
+            </a>
+          </div>
+          <div className={classes.column}>
+            <a
               href="https://github.com/mongare70/Accommodation_Complaints_Management_System"
               target="_blank"
               rel="noopener noreferrer"
@@ -23,6 +32,8 @@ const Projects = () => {
               <h2>Accommodation Complaints Management System</h2>
             </a>
           </div>
+        </div>
+        <div className={classes.row}>
           <div className={classes.column}>
             <a
               href="https://github.com/mongare70/my-portfolio-website"
@@ -32,8 +43,6 @@ const Projects = () => {
               <h2>My Portfolio Website</h2>
             </a>
           </div>
-        </div>
-        <div className={classes.row}>
           <div className={classes.column}>
             <a
               href="https://github.com/mongare70/Currency-Converter-CLI-Application-PyInquirer"
@@ -43,6 +52,8 @@ const Projects = () => {
               <h2>Currency Converter (PyInquirer)</h2>
             </a>
           </div>
+        </div>
+        <div className={classes.row}>
           <div className={classes.column}>
             <a
               href="https://github.com/mongare70/Currency-Converter-CLI-Application-Fire-"
@@ -52,8 +63,6 @@ const Projects = () => {
               <h2>Currency Converter (Python Fire)</h2>
             </a>
           </div>
-        </div>
-        <div className={classes.row}>
           <div className={classes.column}>
             <a
               href="https://github.com/mongare70/cms"
@@ -63,6 +72,8 @@ const Projects = () => {
               <h2>CMS (PHP)</h2>
             </a>
           </div>
+        </div>
+        <div className={classes.row}>
           <div className={classes.column}>
             <a
               href="https://github.com/mongare70/CMS---React-FE"
