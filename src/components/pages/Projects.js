@@ -11,7 +11,7 @@ const Projects = () => {
         <h1>Projects</h1>
         <p>
           This section includes school projects, personal projects, course
-          projects, and boot camp projects.
+          projects, client projects, and bootcamp projects.
         </p>
         <div className={classes.row}>
           <div className={classes.column}>
