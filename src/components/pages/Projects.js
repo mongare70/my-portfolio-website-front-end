@@ -10,8 +10,8 @@ const Projects = () => {
       <div className={classes.control}>
         <h1>Projects</h1>
         <p>
-          This section includes school projects, personal projects, course
-          projects, client projects, and bootcamp projects.
+          This section includes school, personal, course, bootcamp, and
+          client-based projects.
         </p>
         <div className={classes.row}>
           <div className={classes.column}>
