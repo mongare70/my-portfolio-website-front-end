@@ -17,22 +17,34 @@ const Header = () => {
       <input type="checkbox" id="btn" />
       <ul>
         <li>
-          <NavLink exact activeClassName={classes.active} to="/">
+          <NavLink
+            className={(navData) => (navData.isActive ? classes.active : "")}
+            to="/"
+          >
             About
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName={classes.active} to="/experience">
+          <NavLink
+            className={(navData) => (navData.isActive ? classes.active : "")}
+            to="/experience"
+          >
             Experience
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName={classes.active} to="/projects">
+          <NavLink
+            className={(navData) => (navData.isActive ? classes.active : "")}
+            to="/projects"
+          >
             Projects
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName={classes.active} to="/contact">
+          <NavLink
+            className={(navData) => (navData.isActive ? classes.active : "")}
+            to="/contact"
+          >
             Hire Me
           </NavLink>
         </li>

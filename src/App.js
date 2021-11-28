@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Route, Switch } from "react-router";
+import { Route, Routes } from "react-router";
 import { ToastContainer } from "react-toastify";
 
 import Layout from "./components/layouts/Layout";
@@ -17,23 +17,13 @@ function App() {
     <Layout>
       <Suspense fallback={<p>Loading...</p>}>
         <ToastContainer />
-        <Switch>
-          <Route path="/" exact>
-            <About />
-          </Route>
-          <Route path="/experience">
-            <Experience />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="*">
-            <PageNotFound />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
       </Suspense>
     </Layout>
   );
